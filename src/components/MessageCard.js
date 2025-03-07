@@ -178,7 +178,7 @@ const CustomHeart = ({ color }) => (
 const messages = [
     "8/3/2025",
     "Mong em luôn vui vẻ và từ hôm nay bắt đầu đón nhận nhiều điều mới tốt đẹp hơn. ",
-    "Be happy, HZ !",
+    "Be happy, Rose !",
 ];
 
 // Then update the MessageCard component to accept and pass the prop:
@@ -376,7 +376,7 @@ const MessageCard = ({ marginBottom }) => {
 
             {showFinalEffect && (
                 <FullscreenOverlay initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
-                    {heartRows}
+                    {/* {heartRows} */}
 
                     <MessageDecoration></MessageDecoration>
 
@@ -399,7 +399,7 @@ const MessageCard = ({ marginBottom }) => {
                                 repeatType: "reverse",
                             }}
                         >
-                            Be happy, HZ !
+                            Be happy, Rose !
                         </motion.div>
                     </FinalMessage>
                 </FullscreenOverlay>

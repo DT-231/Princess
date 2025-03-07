@@ -152,7 +152,7 @@ const HeartScene = () => {
   return (
     <>
       <Heart />
-      <Flowers />
+      {/* <Flowers /> */}
     </>
   );
 };
